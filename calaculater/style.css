@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('data:image/jpeg;base64,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' );
+    font-family: 'Arial', sans-serif;
+    margin: 0;;
+}
+
+.calculator {
+    background-color: hwb(4 11% 83%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px hsla(135, 81%, 46%, 0.502);
+    padding: 20px;
+    width: 100%;
+    max-width: 550px; /* Increased max-width to accommodate more buttons */
+    box-sizing: border-box;
+}
+
+.history {
+    background-color: oklab(20.019000000000002% 0 -0.00002);
+    color: #bbb;
+    font-size: 0.9em;
+    text-align: right;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: 20px;
+    overflow-x: auto; /* Allow horizontal scrolling for long history */
+    white-space: nowrap;
+}
+
+.display input {
+    width: calc(100% - 20px);
+    background-color: #eeeeee;
+    border: none;
+    color: #222831;
+    font-size: 2.2em; /* Slightly reduced font size */
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns for most buttons */
+    gap: 8px; /* Slightly reduced gap */
+}
+
+.buttons button {
+    background-color: #4a4e5a;
+    border: none;
+    color: #fff;
+    font-size: 1.1em; /* Further reduced font size */
+    padding: 12px; /* Adjusted padding */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttons button:hover {
+    background-color: #6a6e7a;
+}
+
+.buttons .operator,
+.buttons .function {
+    background-color: #f7923b; /* Orange for operators and functions */
+}
+
+.buttons .operator:hover,
+.buttons .function:hover {
+    background-color: #faac68;
+}
+
+.buttons .constant,
+.buttons .variable {
+    background-color: #6c5ce7; /* Purple for constants and variables */
+}
+
+.buttons .constant:hover,
+.buttons .variable:hover {
+    background-color: #8c7ceb;
+}
+
+.buttons .memory {
+    background-color: #00b894; /* Green for memory buttons */
+}
+
+.buttons .memory:hover {
+    background-color: #00d3a7;
+}
+
+.buttons .toggle {
+    background-color: #0984e3; /* Blue for toggle button */
+}
+
+.buttons .toggle:hover {
+    background-color: #3f9be5;
+}
+
+.buttons .clear {
+    background-color: #d63031;
+}
+
+.buttons .clear:hover {
+    background-color: #e55039;
+}
+
+.buttons .delete {
+    background-color: #ffbe76; /* Lighter orange for delete */
+    color: #333; /* Darker text for contrast */
+}
+
+.buttons .delete:hover {
+    background-color: #fdd8b4;
+}
+
+.buttons .equal {
+    background-color: #26de81;
+    grid-column: span 2; /* Equal button spans 2 columns */
+}
+
+.buttons .equal:hover {
+    background-color: #48eb70;
+}
+
+.buttons .zero {
+    grid-column: span 2; /* Zero button spans 2 columns */
+}
+
+/* Responsive adjustments */
+@media (max-width: 580px) {
+    .calculator {
+        padding: 10px;
+        margin: 0 5px;
+        max-width: 100%; /* Allow calculator to take full width on small screens */
+    }
+
+    .display input {
+        font-size: 1.8em;
+    }
+
+    .buttons {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Adjust minmax for smaller buttons */
+        gap: 5px;
+    }
+
+    .buttons button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .buttons .equal,
+    .buttons .zero {
+        grid-column: span 1; /* Reset span for smaller screens to prevent overflow */
+    }
+
+    .buttons .memory,
+    .buttons .toggle,
+    .buttons .variable {
+        grid-column: span 1;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    .calculator {
+        max-width: 480px;
+    }
+    .buttons {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+/* Ensure `sup` for x^y is properly sized */
+sup {
+    font-size: 0.7em;
+    vertical-align: super;
+}
+
