@@ -1,11 +1,15 @@
  #include <stdio.h>
-
+ int  square( int  n){
+     return n * n;
+ }
 int main() {
-   // pointer in c
-    int var = 20;
-    int *ptr;
-    ptr = &var;
-    printf("Value of var: %d\n", var);
+       int  num;
+          printf("Enter an  interger:");
+           scanf("%d",  &num);
+             square(num);
+               printf("The square of %d is %d\n", num, square(num));
+
+
      
 
     return 0;
